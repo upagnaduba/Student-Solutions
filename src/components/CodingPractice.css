@@ -1,0 +1,48 @@
+.coding-practice-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .coding-practice-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .coding-practice-container p {
+    text-align: center;
+  }
+  
+  .coding-websites-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .coding-website-item {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .coding-website-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .coding-website-item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .coding-website-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
